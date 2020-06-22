@@ -26,9 +26,9 @@ Technologies used:
 To properly test this system, generation of certificates and a working mosquitto broker with autorization enabled is required. **Client** and **Server** are independent applications with CLI user interface that both connect to given broker.
 
 ```bash
-python3.7 Client/main.py
+python3 Client/main.py
 ```
 
 ```bash
-python3.7 Server/main.py
+python3 Server/main.py
 ```
